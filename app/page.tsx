@@ -1,6 +1,8 @@
+'use client';
+
 import { useEffect, useRef, useState, useMemo } from 'react';
 import type { ChangeEvent, FormEvent } from 'react';
-import './index.css';
+import './globals.css';
 
 // ─── Typewriter Phrases ──────────────────────────────────────────────────────
 const PHRASES = [
@@ -135,7 +137,7 @@ const PROJECTS_DATA: ProjectItem[] = [
 
 type ProjectFilter = 'all' | 'web' | 'ml' | '3d';
 
-function App() {
+export default function Page() {
 
   // ── Scroll Tracking & Navigation ──────────────────────────────────────────
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -990,7 +992,7 @@ function App() {
 
           {/* FOOTER */}
           <footer className="footer">
-            <p>&copy; {new Date().getFullYear()} Aryan. Built with React, TypeScript &amp; Vanilla CSS.</p>
+            <p>&copy; {new Date().getFullYear()} Aryan. Built with Next.js, TypeScript &amp; Vanilla CSS.</p>
             <button
               className="back-to-top-btn"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
@@ -1057,4 +1059,4 @@ function App() {
   );
 }
 
-export default App;
+
