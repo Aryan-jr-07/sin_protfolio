@@ -46,10 +46,10 @@ const EDUCATION_EVENTS: EducationEvent[] = [
 
 // ─── Beyond Code Identities ───────────────────────────────────────────────
 const ACTIVITIES = [
-  { icon: '⚽', identity: 'Footballer',              color: '#16a34a', badge: 'National Level',   hobby: 'Hobby' },
-  { icon: '🏊', identity: 'Swimmer',                 color: '#0284c7', badge: 'College Level',    hobby: 'Hobby' },
-  { icon: '🎾', identity: 'Tennis Player',           color: '#ca8a04', badge: 'College Level',    hobby: 'Hobby' },
-  { icon: '🏀', identity: 'Basketball Player',       color: '#ea580c', badge: 'School Level',     hobby: 'Hobby' },
+  { icon: '⚽', identity: 'Footballer', color: '#16a34a', badge: 'National Level', hobby: 'Hobby' },
+  { icon: '🏊', identity: 'Swimmer', color: '#0284c7', badge: 'College Level', hobby: 'Hobby' },
+  { icon: '🎾', identity: 'Tennis Player', color: '#ca8a04', badge: 'College Level', hobby: 'Hobby' },
+  { icon: '🏀', identity: 'Basketball Player', color: '#ea580c', badge: 'School Level', hobby: 'Hobby' },
   { icon: '🔧', identity: 'Open Source Contributor', color: '#7c3aed', badge: 'Hacktoberfest L4', hobby: 'Hobby' },
 ];
 
@@ -442,7 +442,7 @@ function App() {
         <a href="#" className="header-logo" onClick={(e) => { e.preventDefault(); scrollTo('about'); }}>
           Aryan<span className="dot">.</span>
         </a>
-        
+
         <div className="header-actions">
           <a href="https://calendly.com/" target="_blank" rel="noopener noreferrer" className="btn">
             Book Meeting
@@ -526,16 +526,16 @@ function App() {
                     <circle cx="4" cy="4" r="2"></circle>
                   </svg>
                 </a>
-                <a href="https://leetcode.com/u/Aryan-jr-07" target="_blank" rel="noopener noreferrer" className="social-link" title="LeetCode" aria-label="LeetCode">
+                <a href="https://leetcode.com/u/dodo_07/" target="_blank" rel="noopener noreferrer" className="social-link" title="LeetCode" aria-label="LeetCode">
                   {/* LeetCode official icon */}
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                    <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" />
                   </svg>
                 </a>
-                <a href="https://codeforces.com" target="_blank" rel="noopener noreferrer" className="social-link" title="Codeforces" aria-label="Codeforces">
+                <a href="https://codeforces.com/profile/aryan_jr07" target="_blank" rel="noopener noreferrer" className="social-link" title="Codeforces" aria-label="Codeforces">
                   {/* Codeforces official icon */}
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z"/>
+                    <path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z" />
                   </svg>
                 </a>
               </div>
@@ -607,14 +607,14 @@ function App() {
                     <circle cx="4" cy="4" r="2"></circle>
                   </svg>
                 </a>
-                <a href="https://leetcode.com/u/Aryan-jr-07" target="_blank" rel="noopener noreferrer" className="social-link" title="LeetCode" aria-label="LeetCode">
+                <a href="https://leetcode.com/u/dodo_07/" target="_blank" rel="noopener noreferrer" className="social-link" title="LeetCode" aria-label="LeetCode">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                    <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" />
                   </svg>
                 </a>
-                <a href="https://codeforces.com" target="_blank" rel="noopener noreferrer" className="social-link" title="Codeforces" aria-label="Codeforces">
+                <a href="https://codeforces.com/profile/aryan_jr07" target="_blank" rel="noopener noreferrer" className="social-link" title="Codeforces" aria-label="Codeforces">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z"/>
+                    <path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z" />
                   </svg>
                 </a>
               </div>
@@ -642,20 +642,20 @@ function App() {
                 {/* Quick stat chips */}
                 <div className="about-chips">
                   <span className="about-chip">
-                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style={{flexShrink:0}}>
-                      <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style={{ flexShrink: 0 }}>
+                      <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" />
                     </svg>
                     LeetCode 1400+
                   </span>
                   <span className="about-chip">
-                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style={{flexShrink:0}}>
-                      <path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z"/>
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style={{ flexShrink: 0 }}>
+                      <path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z" />
                     </svg>
                     Codeforces 630+
                   </span>
                   <span className="about-chip">
-                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{flexShrink:0}}>
-                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
                     </svg>
                     Hacktoberfest L4
                   </span>
@@ -675,11 +675,11 @@ function App() {
                       <div className="timeline-dot" aria-hidden="true" />
                       <div className="timeline-card">
                         <div className="timeline-header">
-                          <div style={{flex: 1}}>
+                          <div style={{ flex: 1 }}>
                             <span className="timeline-degree">{event.degree}</span>
                             <span className="timeline-inst">{event.institution}</span>
                           </div>
-                          <div style={{display:'flex', flexDirection:'column', alignItems:'flex-end', gap:'4px', flexShrink:0}}>
+                          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '4px', flexShrink: 0 }}>
                             <span className="timeline-date">{event.date}</span>
                             <span className="timeline-grade">{event.grade}</span>
                           </div>
@@ -775,14 +775,14 @@ function App() {
 
               {/* Competitive Programming Stats Grid (Count-Up Animation) */}
               <div ref={statsRef} className="stats-grid">
-                <div className="stat-card">
+                <a href="https://leetcode.com/u/dodo_07/" target="_blank" rel="noopener noreferrer" className="stat-card" style={{ textDecoration: 'none', color: 'inherit' }}>
                   <span className="stat-number">{statsCounts[0]}</span>
                   <span className="stat-label">LeetCode Rating</span>
-                </div>
-                <div className="stat-card">
+                </a>
+                <a href="https://codeforces.com/profile/aryan_jr07" target="_blank" rel="noopener noreferrer" className="stat-card" style={{ textDecoration: 'none', color: 'inherit' }}>
                   <span className="stat-number">{statsCounts[1]}</span>
                   <span className="stat-label">Codeforces Rating</span>
-                </div>
+                </a>
                 <div className="stat-card">
                   <span className="stat-number">{statsCounts[2]}+</span>
                   <span className="stat-label">Problems Solved</span>
@@ -809,9 +809,9 @@ function App() {
                   className={`filter-btn ${projectFilter === filter ? 'active' : ''}`}
                   onClick={() => setProjectFilter(filter)}
                 >
-                  {filter === 'all' ? 'ALL PROJECTS' : 
-                   filter === 'web' ? 'WEB & APPS' : 
-                   filter === 'ml' ? 'AI / ML PIPELINES' : '3D / CREATIVE'}
+                  {filter === 'all' ? 'ALL PROJECTS' :
+                    filter === 'web' ? 'WEB & APPS' :
+                      filter === 'ml' ? 'AI / ML PIPELINES' : '3D / CREATIVE'}
                 </button>
               ))}
             </div>
@@ -822,7 +822,7 @@ function App() {
                   <div className="project-card-header">
                     <h3 className="project-title">{project.title}</h3>
                     <p className="project-desc">{project.desc}</p>
-                    
+
                     <div className="project-tags">
                       {project.tags.slice(0, 3).map(tag => (
                         <span className="project-tag" key={tag}>{tag}</span>
@@ -835,7 +835,7 @@ function App() {
                     </div>
                   </div>
 
-                  <button 
+                  <button
                     className="project-link-action clickable"
                     onClick={() => setActiveModalProject(project)}
                     style={{ background: 'transparent', border: 'none', textAlign: 'left' }}
@@ -921,7 +921,7 @@ function App() {
                     />
                     {errors.name && <span className="error-msg">{errors.name}</span>}
                   </div>
-                  
+
                   <div className="form-group">
                     <label className="form-label" htmlFor="subject">Subject</label>
                     <select
@@ -991,8 +991,8 @@ function App() {
           {/* FOOTER */}
           <footer className="footer">
             <p>&copy; {new Date().getFullYear()} Aryan. Built with React, TypeScript &amp; Vanilla CSS.</p>
-            <button 
-              className="back-to-top-btn" 
+            <button
+              className="back-to-top-btn"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               aria-label="Back to Top"
             >
@@ -1004,8 +1004,8 @@ function App() {
       </main>
 
       {/* ─── DYNAMIC SPECIFICATION DETAILS MODAL OVERLAY ─── */}
-      <div 
-        className={`modal-overlay ${activeModalProject ? 'active' : ''}`} 
+      <div
+        className={`modal-overlay ${activeModalProject ? 'active' : ''}`}
         onClick={() => setActiveModalProject(null)}
       >
         {activeModalProject && (
@@ -1016,8 +1016,8 @@ function App() {
 
             <header className="modal-header">
               <span className="modal-subtitle">
-                {activeModalProject.category === 'web' ? 'WEB & APPLICATION' : 
-                 activeModalProject.category === 'ml' ? 'AI & MACHINE LEARNING' : '3D CREATIVE PIPELINE'} SPECIFICATION
+                {activeModalProject.category === 'web' ? 'WEB & APPLICATION' :
+                  activeModalProject.category === 'ml' ? 'AI & MACHINE LEARNING' : '3D CREATIVE PIPELINE'} SPECIFICATION
               </span>
               <h2 className="modal-project-title">{activeModalProject.title}</h2>
             </header>

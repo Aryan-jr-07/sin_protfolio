@@ -1129,11 +1129,16 @@ body::after {
 
 .stat-card {
     background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
+    border: 1px solid rgba(0, 0, 0, 0.10);
     border-radius: 16px;
     padding: 20px 10px;
     text-align: center;
-    transition: var(--transition-smooth);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition:
+        border-color 200ms ease,
+        box-shadow 0.18s ease,
+        transform 0.18s ease;
     position: relative;
     overflow: hidden;
 }
@@ -1149,9 +1154,10 @@ body::after {
 }
 
 .stat-card:hover {
-    border-color: var(--accent-light);
+    border-color: rgba(0, 0, 0, 0.25);
     background: var(--bg-surface);
-    transform: translateY(-3px);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.85);
+    transform: translate(-3px, -3px);
 }
 
 .stat-card:hover::after {
