@@ -540,7 +540,7 @@ function App() {
                 </a>
               </div>
 
-              <a href="/Resume-aryan.pdf" download className="btn btn-ghost" style={{ width: '100%' }}>
+              <a href="Resume-aryan.pdf" download className="btn btn-ghost" style={{ width: '100%' }}>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: '4px' }}>
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                   <polyline points="7 10 12 15 17 10"></polyline>
@@ -581,7 +581,7 @@ function App() {
               </p>
 
               <div className="cta-btn-group">
-                <a href="/Resume-aryan.pdf" download className="btn btn-ghost">
+                <a href="Resume-aryan.pdf" download className="btn btn-ghost">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                     <polyline points="7 10 12 15 17 10"></polyline>
