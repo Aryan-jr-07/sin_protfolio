@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "browserslist": "^4.28.2",
+    "caniuse-lite": "^1.0.30001799",
     "next": "^15.3.3",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"

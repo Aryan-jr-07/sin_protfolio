@@ -71,6 +71,48 @@ interface ProjectItem {
 
 const PROJECTS_DATA: ProjectItem[] = [
   {
+    id: 'skincare-service',
+    title: 'Skincare Service',
+    desc: 'An elegant e-commerce and booking platform for skincare products and services.',
+    longDesc: 'A beautifully designed web application for a modern skincare brand. It includes features for browsing products, booking services, and learning about skincare routines.',
+    tags: ['Next.js', 'React', 'Tailwind CSS'],
+    category: 'web',
+    features: [
+      'Premium UI: Built with a modern, clean aesthetic tailored for health and beauty brands.',
+      'Responsive Design: Ensures a smooth shopping and booking experience across all devices.'
+    ],
+    liveLink: 'https://skincare-psi-ebon.vercel.app/',
+    gitLink: 'https://github.com/Aryan-jr-07/skincare'
+  },
+  {
+    id: 'rafting-service',
+    title: 'Rafting Service',
+    desc: 'A responsive landing page and service platform for a rafting business.',
+    longDesc: 'A sample web application built to showcase a rafting and adventure sports business. Features a clean, responsive layout designed for optimal user experience.',
+    tags: ['React', 'CSS', 'Vite'],
+    category: 'web',
+    features: [
+      'Responsive Design: Optimized for seamless viewing across mobile and desktop devices.',
+      'Modern UI/UX: Intuitive interface with engaging visual elements for adventure seekers.'
+    ],
+    liveLink: 'https://raft-sample.netlify.app/',
+    gitLink: 'https://github.com/Aryan-jr-07/rafting-sample'
+  },
+  {
+    id: 'twinstack',
+    title: 'TwinStack',
+    desc: 'A modern web application built with TypeScript and Vite.',
+    longDesc: 'TwinStack is a web application designed for high performance and scalability. Developed using TypeScript and bundled with Vite.',
+    tags: ['TypeScript', 'Vite', 'React'],
+    category: 'web',
+    features: [
+      'Modern Stack: Built using Vite for fast compilation and HMR.',
+      'Type Safety: Fully written in TypeScript for reliable code.'
+    ],
+    liveLink: 'https://twinstack.pakhsa.in/',
+    gitLink: 'https://github.com/Aryan-jr-07/TS'
+  },
+  {
     id: 'eventsphere',
     title: 'EventSphere',
     desc: 'A production-ready event ticketing platform implementing modular N-Tier architecture and secure payment verification.',
@@ -84,8 +126,8 @@ const PROJECTS_DATA: ProjectItem[] = [
       'OTP Verification System: Integrated SMTP OTP validation with session-aware Supabase persistence.',
       'Encrypted Passes: Created QR-code tickets containing encrypted metadata for secure scanner checks.'
     ],
-    liveLink: 'https://github.com/Aryan-jr-07',
-    gitLink: 'https://github.com/Aryan-jr-07'
+    liveLink: 'https://project-event-sphere.vercel.app/',
+    gitLink: 'https://github.com/vanshpanwar2024/eventSphere'
   },
   {
     id: 'fakenews',
@@ -99,8 +141,8 @@ const PROJECTS_DATA: ProjectItem[] = [
       'Fact-Checking Engine: Implemented Retrieval-Augmented Generation (RAG) to gather context and compute verdicts.',
       'FastAPI & Docker: Exposed server endpoints via FastAPI and containerized utilizing Docker Compose.'
     ],
-    liveLink: 'https://github.com/Aryan-jr-07',
-    gitLink: 'https://github.com/Aryan-jr-07'
+    liveLink: 'https://huggingface.co/spaces/aryanjr07/FakeNewsDetection',
+    gitLink: 'https://github.com/deepak-pandey-10/FakeNewsDetection'
   },
   {
     id: 'marlboro',
